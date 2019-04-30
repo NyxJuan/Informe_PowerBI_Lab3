@@ -1,117 +1,85 @@
-\section{Actividad 01: Crear Relaciones } 
+\section{Actividad 01: Conectando PowerBI a datos} 
 
 
-\begin{enumerate}[1.]
-    \item Ingresar a Power BI Desktop.
-
+Ejercicio 1  Conectar a datos existentes \\
 	\begin{center}
-	\includegraphics[width=10cm]{./Imagenes/imagen1}
+	\includegraphics[width=15cm]{./Imagenes/power1}
 	\end{center}	
 
-    \item En la Ventana de Power BI Desktop, click en Obtener Datos (Get Data)
-
-    \item En el cuadro de dialogo Obtener Datos (Get Data), asegurarse que Excel esta seleccionado y hacer click
-en Conectar (Connect).
-
 	\begin{center}
-	\includegraphics[width=12cm]{./Imagenes/power1}
+	\includegraphics[width=15cm]{./Imagenes/power2}
 	\end{center}	
 
-    \item  En el cuadro de dialogo Abrir (Open), buscar el archivo Adventure Works Sales Data.xlsx, y luego hacer
-click en Abrir (Open).
-
-    \item En el cuadro de dialogo Explorador (Navigator), seleccionar las hojas DimCurrency, DimCustomer,
-DimDate, DimProduct, DimPromotion, DimSalesTerritory, y FactInternetSales.
-    \item Hacer click en Cargar (Load).
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power3}
+	\end{center}	
 
 	\begin{center}
-	\includegraphics[width=13cm]{./Imagenes/power2}
-	\end{center}
-
-    \item En el panel de vistas a mano derecho, hacer click en Relaciones (Relationships).
-
-    \item En el menú principal, hacer click en Administrar relaciones (Manage Relationships).
-
-    \item En el cuadro de Administrar relaciones (Manage Relationships), hacer click en Nueva (New).
-
-    \item  En el cuadro de Administrar relaciones (Manage Relationships), en la lista de tablas superior, hacer click en FactInternetSales. Cuando la vista previa de la table aparezca hacer click en la columna OrderDateKey.
-
-	\begin{center}
-	\includegraphics[width=13cm]{./Imagenes/power3}
-	\end{center}
-
-    \item En la lista de table inferior, hacer click en DimDate. Cuando la vista previa de la table aparezca hacer click
-en la columna DateKey.
-
-    \item Revisar que la cardinalidad (Cardinality) esta seleccionada para Muchos a Uno (Many to One (*:1)), que la
-Dirección del filtro cruzado (Cross filter direction) es Sencilla (Single), y que la opción Hacer esta relación
-activa (Make this relationship active) se encuentra seleccionada, luego hacer click en Aceptar (OK).
+	\includegraphics[width=15cm]{./Imagenes/power4}
+	\end{center}	
 \pagebreak
-    \item En el cuadro de Administrar relaciones (Manage Relationships), hacer click en Cerrar (Close).
+Ejercicio 2: Shape Data\\
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power5}
+	\end{center}	
 
 	\begin{center}
-	\includegraphics[width=13cm]{./Imagenes/power4}
-	\end{center}
-
-   \item En el diagrama, en la tabla FactInternetSales, hacer click en la columna DueDateKey. Arrastrar la columna
-DueDateKey a la columna DateKey de la tabla DimDate.
-
-   \item En el diagrama, en la tabla FactInternetSales, hacer click en la columna ShipDateKey. Arrastrar la
-columna ShipDateKey a la columna DateKey de la tabla DimDate.
-
-   \item En el menú principal, hacer click en Administrar relaciones (Manage Relationships).
-
-   \item En el cuadro de Administrar relaciones (Manage Relationships), hacer doble click en la relación
-FactInternetSales (CurrencyKey).
-
-   \item En la lista de Dirección de Filtro Cruzado (Cross filter direction), hacer click en Sencilla (Single), luego
-hacer click en Aceptar (OK).
-
-   \item En el cuadro de Administrar relaciones (Manage Relationships), hacer doble click en la relación
-FactInternetSales (ProductKey).
-
-   \item En la lista de Dirección de Filtro Cruzado (Cross filter direction), hacer click en Sencilla (Single), luego
-hacer click en Aceptar (OK).
-
-   \item En el cuadro de Administrar relaciones (Manage Relationships), hacer doble click en la relación
-FactInternetSales (PromotionKey).
-   \item En la lista de Dirección de Filtro Cruzado (Cross filter direction), hacer click en Sencilla (Single), luego
-hacer click en Aceptar (OK).
-
-   \item En el cuadro de Administrar relaciones (Manage Relationships), hacer doble click en la relación
-FactInternetSales (SalesTerritoryKey).
-   \item En la lista de Dirección de Filtro Cruzado (Cross filter direction), hacer click en Sencilla (Single), luego
-hacer click en Aceptar (OK).
-
-   \item En el cuadro de Administrar relaciones (Manage Relationships), hacer click en Cerrar (Close).
-
-   \item Hacer click en la línea de relación entre FactInternetSales and DimCustomer y presionar Borrar (Delete).
-
-   \item En el cuadro de dialogo Eliminar relación (Delete Relationship), hacer click en Borrar (Delete).
-
-   \item En el menú principal, hacer click en Administrar relaciones (Manage Relationships).
-
-   \item En el cuadro de Administrar relaciones (Manage Relationships), hacer click en Nueva (New).
-
-   \item En la lista de tablas superior, hacer click en FactInternetSales. Luego hacer click en la columna
-CustomerKey en la vista de datos previa.
-
-   \item En la lista de tablas superior, hacer click en DimCustomer, y hacer click CustomerKey en la vista de datos
-previa.
-
-   \item En la lista de Cardinalidad (Cardinality), hacer click en Muchos a Uno (Many to One (*:1)), y luego hacer
-click en Aceptar (OK).
-
-   \item En el cuadro de Administrar relaciones (Manage Relationships), hacer click en Cerrar (Close).
+	\includegraphics[width=15cm]{./Imagenes/power6}
+	\end{center}	
 
 	\begin{center}
-	\includegraphics[width=13cm]{./Imagenes/power5}
-	\end{center}
+	\includegraphics[width=15cm]{./Imagenes/power7}
+	\end{center}	
 
-   \item Hacer click en Guardar (Save), y cuargar el archive como Ventas Adventure Works.pbix.
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power8}
+	\end{center}	
 
-\end{enumerate}
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power9}
+	\end{center}	
 
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power10}
+	\end{center}	
 
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power11}
+	\end{center}	
 
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power12}
+	\end{center}	
+\pagebreak
+Ejercicio 3: Combine Data\\
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power13}
+	\end{center}	
 
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power14}
+	\end{center}	
+
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power15}
+	\end{center}	
+
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power16}
+	\end{center}	
+
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power17}
+	\end{center}	
+
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power18}
+	\end{center}	
+
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power19}
+	\end{center}	
+
+	\begin{center}
+	\includegraphics[width=15cm]{./Imagenes/power20}
+	\end{center}	
